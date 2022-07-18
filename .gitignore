@@ -1,4 +1,7 @@
 .idea
 /my-app/node_modules
+/my-app/package-lock.json
+/react-learning/node_modules
+/react-learning/package-lock.json
 
 
