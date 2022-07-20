@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import "./index.css"
+import "./index.less"
 
 class ComponentStyle extends Component {
     render() {
@@ -11,8 +11,9 @@ class ComponentStyle extends Component {
         return (
             <div >
                 <div style={style}>{10+20}{name}</div>
-
-                <div class="active">green</div>
+                <div className="active">green</div>
+                <label htmlFor="userName">输入</label>
+                <input type="text" id="userName"/>
             </div>
 
         );
