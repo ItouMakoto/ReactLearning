@@ -1,9 +1,9 @@
 import React from "react";
 import {createRoot} from "react-dom/client";
-import App from "./componentCombine.js";
+import OnEvent from "./01event/onEvent";
 import ComponentStyle from "./componentStyle"
 
 
 
 const root = createRoot(document.getElementById('root'))
-root.render(<ComponentStyle></ComponentStyle>)
+root.render(<OnEvent></OnEvent>)
